@@ -10,4 +10,5 @@ dump.rdb
 .vscode
 .idea
 
-/lib
+# /lib
+.history

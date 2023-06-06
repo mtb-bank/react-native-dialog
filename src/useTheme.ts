@@ -11,7 +11,7 @@ export interface UseTheme {
 
 const useTheme = (buildStyles: StyleBuilder): UseTheme => {
   const colorScheme = useColorScheme();
-  const isDark = colorScheme === "dark";
+  const isDark = false;
 
   const styles = useMemo(() => {
     return buildStyles(isDark);
